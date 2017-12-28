@@ -90,6 +90,7 @@ def update_records(uuid, dynIP, subdomain):
 
 
 def main(force_update, verbosity, domain):
+    print "Updating", domain, "..."
     #get zone ID from Account
     uuid = get_uuid(domain)
    
